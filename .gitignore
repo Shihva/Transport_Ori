@@ -1,0 +1,41 @@
+# ===== 工作区 / 工具目录 =====
+.workbuddy/
+
+# ===== CMake / 编译产物 =====
+Transport_car/build/
+Transport_car/cmake-build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+*.o
+*.obj
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+*.crf
+*.dep
+*.lnp
+*.lst
+*.sct
+*.build_log.htm
+
+# ===== Keil MDK 输出 =====
+Transport_car/MDK-ARM/Transport_car/
+*.uvguix.*
+*.uvopt.bak
+*.uvproj.bak
+JLinkLog.txt
+EventRecorder*.log
+
+# ===== clangd / 语言服务缓存 =====
+.cache/
+compile_commands.json
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
