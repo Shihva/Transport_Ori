@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "stlinkgdbtarget",
+            "request": "launch",
+            "name": "STM32 ST-LINK 调试 (Transport_car)",
+            "origin": "snippet",
+            "cwd": "${workspaceFolder}/Transport_car",
+            "runEntry": "main",
+            "deviceName": "STM32F407ZG",
+            "deviceCore": "Cortex-M4",
+            "imagesAndSymbols": [
+                {
+                    "imageFileName": "${workspaceFolder}/Transport_car/build/Debug/Transport_car.elf"
+                }
+            ]
+        }
+    ]
+}

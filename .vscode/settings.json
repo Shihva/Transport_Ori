@@ -1,3 +1,9 @@
 {
-    "cmake.sourceDirectory": "C:/Transport_Ori/Transport_car"
+    "cmake.sourceDirectory": "C:/Transport_Ori/Transport_car",
+    "cmake.cmakePath": "C:/Users/Shihva/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/bin/cmake.exe",
+    "cmake.generator": "Ninja",
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "cmake.useCMakePresets": "always"
 }

@@ -28,6 +28,9 @@
 /* USER CODE BEGIN Includes */
 
 #include "bsp_usart.h"
+#include "Chassis.h"
+#include "Gimbal.h"
+#include "Vision.h"
 
 /* USER CODE END Includes */
 
@@ -101,6 +104,9 @@ int main(void)
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  Chassis_Init();
+  Gimbal_Init();
+  Vision_Init();  
   // Bsp_Usart_Init();
 
   /* USER CODE END 2 */

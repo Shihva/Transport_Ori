@@ -34,4 +34,7 @@ typedef struct
 
 extern Chassis chassis;
 
+void Chassis_Init(void);
+void Chassis_Motor_Speed_Calc(void);
+
 #endif

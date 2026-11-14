@@ -38,4 +38,8 @@ typedef struct _GIMBAL
 
 extern Gimbal gimbal;
 
+void Gimbal_Init(void);
+void Gimbal_Angle_Calc(void);
+void Gimbal_Carry_Update(void);
+
 #endif

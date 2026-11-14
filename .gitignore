@@ -33,6 +33,9 @@ EventRecorder*.log
 .cache/
 compile_commands.json
 
+# ===== 本地参考资料（手册 PDF 转出的临时文本，源文件在仓库外） =====
+.zdt_manual.txt
+
 # ===== 系统 / 编辑器 =====
 .DS_Store
 Thumbs.db

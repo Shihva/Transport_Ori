@@ -51,6 +51,8 @@ typedef struct
 
 }Vision;
 
+void Vision_Init(void);
+void Vision_DataUpdate(void);
 void Vision_Receive_DataUpdate(void);
 
 #endif
